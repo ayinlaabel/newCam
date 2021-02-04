@@ -1,3 +1,25 @@
+body{
+    /* font-family: 'Lato', sans-serif; */
+    font-family: 'Lora', serif;
+}
+
 .bg-image{
-    background: url(../img/);
+    background-image:   linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)),
+                        url(../img/Forever-Header.jpg);
+    /* background-position: center center; */
+    background-repeat: no-repeat;
+    background-size: 100% 700px;
+    
+    /* opacity: 0.5; */
+    /* transition: background 0.3s, border-radius 0.3s, opacity 0.3s; */
+    /* position: fixed; */
+
+}
+
+.text-purple{
+    background-color: #A020F0;
+}
+
+.bg-green{
+    background: #28ff45;
 }
