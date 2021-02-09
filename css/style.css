@@ -1,6 +1,6 @@
 body{
-    /* font-family: 'Lato', sans-serif; */
-    font-family: 'Lora', serif;
+    font-family: 'Lato', sans-serif;
+    /* font-family: 'Lora', serif; */
 }
 
 .bg-image{
@@ -51,4 +51,31 @@ body{
     background: #ffffff;
     border-top: 2px solid #002bff !important;
     /* border: #002bff solid 1px; */
+}
+
+.testimony{
+    height: 80vh;
+}
+
+.my-card{
+    height: 200px;
+    box-shadow: #000 2px 1px 20px -6px;
+    border-radius: 5px;
+    position: relative;
+}
+
+.ml-2{
+    margin-left: 2rem;
+}
+
+.round {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.text-cent{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
