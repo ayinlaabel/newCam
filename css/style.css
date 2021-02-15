@@ -1,7 +1,11 @@
+html,
 body{
     font-family: 'Lato', sans-serif;
     /* font-family: 'Lora', serif; */
+    margin: 0;
+    padding: 0;
     width: 100%;
+    
 }
 
 .bg-image{
@@ -11,6 +15,7 @@ body{
     top: 5px;
     left: 50px;
     height: 90vh;
+    width: 100%;
     
 
 }
@@ -24,6 +29,14 @@ body{
     padding: 0;
     margin: 0;
     background-attachment: fixed;
+    width: 100%;
+}
+.other{
+    width: 100%;
+    
+}
+.overflow{
+    overflow: hidden;
 }
 
 .text-purple{
@@ -31,7 +44,6 @@ body{
 }
 
 .bg-green{
-    height: 100vh;
     background: linear-gradient(120deg, rgba(0, 0, 0, .8), rgba(0, 0, 0, .8)),
                 url(../img/3.jpg);
     color: #FFF;
@@ -41,6 +53,8 @@ body{
 
 .text-lightblue{
     color: #025971;
+    padding: 0;
+    margin: 0;
 }
 .text-lightblue-1{
     color: #025971;
@@ -69,7 +83,7 @@ body{
 }
 
 .testimony{
-    height: 80vh;
+    height: 70vh;
 }
 
 .my-card{
@@ -117,11 +131,18 @@ body{
 }
 
 .my-bg-dark{
-    height: 90vh;
     background: linear-gradient(120deg, rgba(0, 0, 0, .8), rgba(0, 0, 0, .8)),
                 url(../img/3.jpg);
     color: #FFF;
     background-size: cover;
     background-attachment: fixed;
     
+}
+
+.upcase{
+    text-transform: uppercase;
+}
+
+.lowcase{
+    text-transform: lowercase;
 }
