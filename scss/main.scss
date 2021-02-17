@@ -1,0 +1,189 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Lora', serif;
+    padding: 0;
+    margin: 0;
+}
+
+.hero {
+    position: relative;
+    background: linear-gradient(20deg, rgba(0, 0, 0, .6) 65%, rgba(#F7FF00, .6)),
+                url(../img/4.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100%;
+    padding: 2rem;
+
+
+    &-top {
+        text-align: center;
+        align-items: center;
+        color: #fff;
+        & span{
+            display: inline-block;
+            width: 32%;
+            text-align: center;
+
+            & i {
+                margin-right: 10px;
+            }
+        }
+    }
+
+    &-main {
+        align-items: center;
+        text-align: center;
+        // position: absolute;
+        // width: 100%;
+        // top: 50%;
+        // left: 50%;
+        // transform: translate(-50%, -50%);
+
+        &-p {
+            margin-bottom: 2rem;
+            font-size: 1.2rem;
+            font-weight: 300;
+            color: #fff;
+            letter-spacing: 2px;
+        }
+
+        &-btn {
+            padding: 1rem;
+            margin: 1rem;
+        }
+    }
+
+    &-h1 {
+        padding-bottom: 0;
+        margin-top: 4rem;
+        margin-bottom: 0;
+        font-family: 'Lato', 'Roboto', sans-serif;
+        font-size: 7rem;
+        font-weight: 400;
+        text-transform: uppercase;
+        color: #fff;
+    }
+
+    &-h3 {
+        font-weight: 400;
+        font-size: 1.5rem;
+        text-transform: uppercase;
+        color: #e9e2e2;
+        letter-spacing: 2px;
+    }
+
+    &-box {
+        font-size: 1.2rem;
+        font-weight: 300;
+        display: inline-block;
+        text-transform: uppercase;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        width: 800px;
+        padding: 1rem;
+        border-top: solid #fff 1px;
+        border-bottom: solid #fff 1px;
+        color: #fff;
+        letter-spacing: 3px;
+
+    }
+
+    
+}
+
+.hero-main-butn {
+    a {
+       
+        transition: all .5s ease-out;
+        &.butn {
+            font-size: 1.2rem;
+            font-weight: 300;
+            text-decoration: none;
+            margin: 2rem ;
+            padding: 1rem;
+            border-radius: 5px;
+            
+            
+            &-danger {
+                color: #fff;
+                background: #ff0000;
+                transform: scale(1);
+                
+                &:hover,
+                &:focus {
+                    background: #0000ff;
+                    transform: scale(0.9);
+                }
+            }
+        }
+        
+    }   
+}
+
+main {
+    background: #fff;
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+
+    .order{
+        background: #101010;
+        color: #fff;
+
+        &-p {
+            font-size: 1.5rem;
+            text-align: center;
+            padding: 1rem;
+        }
+
+        &-link {
+            text-decoration: none;
+            color: #F7FF00;
+
+            &:hover {
+                color: #0000ff;
+            }
+        }
+    }
+
+    .intro {
+        &-h2 {
+            font-size: 2rem;
+            font-weight: 900;
+            text-align: center;
+            text-transform: uppercase;
+            padding-top: 1rem;
+        }
+        .under,
+        .under-line,
+        .under-star {
+            display: inline-block;
+        }
+
+        .under {
+            align-items: center;
+            padding-right: 4rem;
+            padding-left: 4rem;
+            display: inline;
+
+            & .under-line {
+                padding: 0;
+                margin: 0;
+                width: 44%;
+                height: 1px;
+                background: #000;
+            }
+
+            & .under-star {
+                padding: 0 .9rem;
+                font-size: 1rem;
+            }
+        }
+    }
+}
